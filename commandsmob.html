@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <title>Megumin</title>
+    <meta http-equip="Content-Type" content="text/html ; charset=UTF-8" />
+    <meta name="description" content="Commands Information">
+    <link rel="shortcut icon" href="./materials/meg-pfp-v2.png" type="image/x-icon">
+    <link rel="stylesheet" href="./materials/styles.css">
+</head>
+<body>
+    <div class="upper"
+        style="position: relative; left: 0vw; top: 0vh; width: 100%; border: #ffffff; border-width: 10vw; text-align: center;">
+        <button style="width: 15vw; text-align: center; font-size: 7vw; background-color: #36393e; color: #fff; margin-top: 2vh; margin-bottom: 2vh; border-color: #282b30;" onclick="myFunction()">. . .</button>
+        <a href="mindex.html" target="_blank">
+            <div id="gen" class="buttonmob"style="display: none; margin-left: 4vh; margin-right: 4vh; color: #ffffff; text-align: center; line-height: 5vh; border-style: solid; border-width: 2vw; border-color: #7289da;">
+                General</div>
+        </a>
+        <a href="dashboardmod.html" target="_blank">
+            <div id="dash" class="buttonmob" style="display: none; margin-top: 3vh; margin-left: 4vh; margin-right: 4vh; color: #ffffff; text-align: center; line-height: 5vh; border-style: solid; border-width: 2vw; border-color: #7289da;">
+                Dashboard</div>
+        </a>
+        <a href="commandsmob.html" target="_blank">
+            <div id="cmd" class="buttonmob" style="display: none; margin-top: 3vh; margin-left: 4vh; margin-right: 4vh; color: #ffffff; text-align: center; line-height: 5vh; border-style: solid; border-width: 2vw; border-color: #7289da;">
+                Commands</div>
+        </a>
+        <a href="privacymob.html" target="_blank">
+            <div id="pp" class="buttonmob" style="display: none; margin-top: 3vh; margin-left: 4vh; margin-right: 4vh; color: #ffffff; text-align: center; line-height: 5vh; border-style: solid; border-width: 2vw; border-color: #7289da;">
+                Privacy Policy</div>
+        </a>
+        <a href="tosmob.html" target="_blank">
+            <div id="tos" class="buttonmob" style="display: none; margin-top: 3vh; margin-left: 4vh; margin-right: 4vh; color: #ffffff; text-align: center; line-height: 5vh; border-style: solid; border-width: 2vw; border-color: #7289da;">
+                Terms of Service</div>
+        </a>
+    </div>
+    <div class="main-container"
+        style="position: relative; margin-top: 2.5vh; width: 94vw; border: #ffffff; border-width: 10vw; margin-left: 2vw; margin-right: 2vw;">
+        <h2 style="margin-left: 2vw;">Commands</h2>
+        <h3 style="margin-left: 2vw;">Emotions</h3>
+        <p style="font-size: 5vw; margin-left: 2vw; margin-right: 2vw">
+            "sad" - bot sends random GIF with sad emotion.<br/>Syntax: [prefix]sad<br/>
+            "dance" - bot sends random GIF with dance.<br/>Syntax: [prefix]dance<br/>
+            "laugh" - bot sends random GIF with laugh emotion.<br/>Syntax: [prefix]laugh<br/>
+            "happy" - bot sends random GIF with happy emotion.<br/>Syntax: [prefix]happy<br/>
+            "hug" - bot sends random GIF with characters, that are hugging.<br/>Syntax: [prefix]hug [@mentioned_user]<br/>
+            "kiss" - bot sends random GIF with characters, that are kissing.<br/>Syntax: [prefix]kiss [@mentioned_user]<br/>
+            "punch" - bot sends random GIF with character, that punches another one.<br/>Syntax: [prefix]punch [@mentioned_user]</p>
+        <h3 style="margin-left: 2vw;">Entertainment</h3>
+        <p style="font-size: 5vw; margin-left: 2vw; margin-right: 2vw">
+            "meg" - bot will reply to your message.<br/>Syntax: [prefix]meg [your_message]<br/>
+            "dice" - bot starts dice game between you and mentioned user.<br/>Syntax: [prefix]dice [@mentioned_user]<br/>
+            "botrps" - bot plays rock-paper-scissors game with you.<br/>Syntax: [prefix]botrps<br/>
+            "rps" - bot starts rock-paper-scissors game between you and mentioned user (60 seconds cooldown).<br/>Syntax: [prefix]rps [@mentioned_user]</p>
+        <h3 style="margin-left: 2vw;">Moderation</h3>
+        <p style="font-size: 5vw;; margin-left: 2vw; margin-right: 2vw">
+            "emb" - bot creates embed with your custom data.<br/>Syntax: [prefix]emb [simple/advanced] [color_hex_code] [color (only for simple type)] [your message (only for simple type)]<br/>
+            "warn" - bot gives a warn/checks amount of warns/sets your custom amount of warns for mentioned user.<br/>Syntax: [prefix]warn [give/check/set] [@mentioned_user] [reason/nothing/amount]<br/>
+            "timeout" - bot mutes mentioned user.<br/>Syntax: [prefix]timeout [@mentioned_user] [time in minutes] [reason]<br/>
+            "kick" - bot kicks mentioned user.<br/>Syntax: [prefix]kick [@mentioned_user] [reason]<br/>
+            "ban" - bot bans mentioned user.<br/>Syntax: [prefix]ban [@mentioned_user] [reason]</p>
+        <h4 style="margin-left: 2vw;">*Info in square brackets means variables, that may be different in each Discord server</h4>
+    </div>
+</body>
+<script>
+    function myFunction() {
+        var a = document.getElementById("gen");
+        var b = document.getElementById("dash");
+        var c = document.getElementById("cmd");
+        var d = document.getElementById("pp");
+        var e = document.getElementById("tos");
+        if (a.style.display === "none") {
+            a.style.display = "block";
+        } else {
+            a.style.display = "none";
+        };
+        if (b.style.display === "none") {
+            b.style.display = "block";
+        } else {
+            b.style.display = "none";
+        };
+        if (c.style.display === "none") {
+            c.style.display = "block";
+        } else {
+            c.style.display = "none";
+        };
+        if (d.style.display === "none") {
+            d.style.display = "block";
+        } else {
+            d.style.display = "none";
+        };
+        if (e.style.display === "none") {
+            e.style.display = "block";
+        } else {
+            e.style.display = "none";
+        };
+    }
+</script>
+</html>
